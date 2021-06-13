@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83707FCE2675069400DAB2C2 /* Posts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83707FCD2675069400DAB2C2 /* Posts.swift */; };
+		83707FD0267507CB00DAB2C2 /* ResolveJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83707FCF267507CB00DAB2C2 /* ResolveJSON.swift */; };
 		83C9BDC42674FC42007F4B1F /* Using_APIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9BDC32674FC42007F4B1F /* Using_APIApp.swift */; };
 		83C9BDC62674FC42007F4B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C9BDC52674FC42007F4B1F /* ContentView.swift */; };
 		83C9BDC82674FC43007F4B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C9BDC72674FC43007F4B1F /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		83707FCD2675069400DAB2C2 /* Posts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Posts.swift; sourceTree = "<group>"; };
+		83707FCF267507CB00DAB2C2 /* ResolveJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResolveJSON.swift; sourceTree = "<group>"; };
 		83C9BDC02674FC42007F4B1F /* Using API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Using API.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83C9BDC32674FC42007F4B1F /* Using_APIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Using_APIApp.swift; sourceTree = "<group>"; };
 		83C9BDC52674FC42007F4B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +58,8 @@
 			children = (
 				83C9BDC32674FC42007F4B1F /* Using_APIApp.swift */,
 				83C9BDC52674FC42007F4B1F /* ContentView.swift */,
+				83707FCF267507CB00DAB2C2 /* ResolveJSON.swift */,
+				83707FCD2675069400DAB2C2 /* Posts.swift */,
 				83C9BDC72674FC43007F4B1F /* Assets.xcassets */,
 				83C9BDCC2674FC43007F4B1F /* Info.plist */,
 				83C9BDC92674FC43007F4B1F /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83707FCE2675069400DAB2C2 /* Posts.swift in Sources */,
 				83C9BDC62674FC42007F4B1F /* ContentView.swift in Sources */,
+				83707FD0267507CB00DAB2C2 /* ResolveJSON.swift in Sources */,
 				83C9BDC42674FC42007F4B1F /* Using_APIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
